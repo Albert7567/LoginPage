@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Login Page</title>
+
+        <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+
+<script>
+  const firebaseConfig = {
+
+apiKey: "AIzaSyC95VISo-J__81sVwcYVU8so4wmcp_gUBo",
+
+authDomain: "studyproject-77bbc.firebaseapp.com",
+
+databaseURL: "https://studyproject-77bbc-default-rtdb.firebaseio.com",
+
+projectId: "studyproject-77bbc",
+
+storageBucket: "studyproject-77bbc.firebasestorage.app",
+
+messagingSenderId: "623319828388",
+
+appId: "1:623319828388:web:3c0f2ffc3b5906dcbf6331",
+
+measurementId: "G-TJG36SRS7X"
+
+};
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    </head>
+    <body>
+        <h1>Login</h1>
+     
+        <input type = "email" id="email" placeholder="Enter your email.">
+        <br>
+        <input tyoe="password" id="password" placeholder="Enter your password.">
+        <br>
+        <button onclick="login()">Log In</button>
+        <script src="./static/script.js"></script>
+    </body>
+</html>
